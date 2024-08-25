@@ -1,0 +1,12 @@
+{
+    "integer": 234,
+    "string": "Namitsai",
+    "boolean": true,
+    "array":[23,545,6364],
+    "object":{
+        "integer": 234,
+        "string": "Namitsai",
+        "boolean": true,
+        "array":[23,545,6364]
+    }
+}
