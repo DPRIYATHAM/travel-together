@@ -1,3 +1,0 @@
-# TICKIT
-
-Travelling Together...
