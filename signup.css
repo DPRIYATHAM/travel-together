@@ -1,0 +1,163 @@
+*
+{
+    background-color: #E6C661;
+}
+
+.login
+{
+    display: flex;
+}
+
+.logo
+{
+    background-color: #FFFFFF;
+    width: 666px;
+    height: 650px;
+    margin-left: 94px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1.5px solid #000000;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo:hover {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    border: 3px solid  rgba(0, 136, 255, 0.964);
+}
+
+
+.title
+{
+    color: #0E0000;
+    background-color: #FFFFFF;
+    padding: 400px 200px 50px 270px;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading
+{
+    color: #A0616A;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-left: 300px;
+    margin-top: 90px;
+}
+
+.login-form
+{
+    background-color: #F1E8C7;
+    width: 500px;
+    height: 450px;
+    padding-top: 30px;
+    margin-left: 150px;
+    border-radius: 27.97px;
+    border: 2px solid none;
+}
+
+.login-form:hover
+{
+    border: 2px solid rgba(0, 136, 255, 0.964);
+}
+
+form
+{
+    background-color: #F1E8C7;
+}
+
+input
+{
+    background-color:#F1E8C7;
+    border: none;
+    padding-top: 30px;
+    padding-left: 70px;
+    width: 80%;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color:#A0616A;
+    font-size: 18px;
+}
+
+.password
+{
+    margin-top: 30px;
+}
+
+.ruler
+{
+    width: 80%;
+    color: #8F8F8F;
+    font-weight: 1;
+}
+
+.login-btn
+{
+    margin-top: 60px;
+    border-radius: 18.48px;
+    color: #A0616A;
+    border-color: #A0616A;
+    width: 300px;
+    height: 50px;
+    margin-left: 120px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1.5px solid #A0616A;
+}
+
+.login-btn:hover{
+    border: 2px solid rgba(0, 136, 255, 0.964);
+}
+
+.google
+{
+    background-color: #FFFFFF;
+    border-radius: 11.71px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 120px;
+    width: 280px;
+    display: flex;
+    padding-left: 20px;
+    gap: 1rem;
+    border: 2px solid none;
+}
+
+.google:hover
+{
+    border: 2px solid rgba(0, 136, 255, 0.964);
+}
+
+.text 
+{
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.text p 
+{
+    background-color: #FFFFFF;
+    color: #868686;
+    font-size: 18px;
+}
+
+.google-logo 
+{
+    height: 32.21px;
+    margin-top: 10px;
+    width: 32.63px;
+    background-color: white;
+}
+
+.google-logo img
+{
+    background-color: white;
+}
