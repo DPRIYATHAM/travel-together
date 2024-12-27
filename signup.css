@@ -1,15 +1,13 @@
-*
-{
+* {
     background-color: #E6C661;
 }
 
-.login
-{
+.login {
     display: flex;
+    flex-wrap: wrap;
 }
 
-.logo
-{
+.logo {
     background-color: #FFFFFF;
     width: 666px;
     height: 650px;
@@ -22,24 +20,20 @@
 
 .logo:hover {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
-    border: 3px solid  rgba(0, 136, 255, 0.964);
 }
 
-
-.title
-{
+.title {
     color: #0E0000;
     background-color: #FFFFFF;
     padding: 400px 200px 50px 270px;
     font-weight: bold;
     font-size: xx-large;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.heading
-{
+.heading {
     color: #A0616A;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px;
     letter-spacing: 1px;
     font-weight: bold;
@@ -47,8 +41,7 @@
     margin-top: 90px;
 }
 
-.login-form
-{
+.login-form {
     background-color: #F1E8C7;
     width: 500px;
     height: 450px;
@@ -58,19 +51,12 @@
     border: 2px solid none;
 }
 
-.login-form:hover
-{
-    border: 2px solid rgba(0, 136, 255, 0.964);
-}
-
-form
-{
+form {
     background-color: #F1E8C7;
 }
 
-input
-{
-    background-color:#F1E8C7;
+input {
+    background-color: #F1E8C7;
     border: none;
     padding-top: 30px;
     padding-left: 70px;
@@ -83,42 +69,34 @@ input:focus {
 }
 
 input::placeholder {
-    color:#A0616A;
+    color: #A0616A;
     font-size: 18px;
 }
 
-.password
-{
+.password {
     margin-top: 30px;
 }
 
-.ruler
-{
+.ruler {
     width: 80%;
     color: #8F8F8F;
     font-weight: 1;
 }
 
-.login-btn
-{
+.login-btn {
     margin-top: 60px;
     border-radius: 18.48px;
     color: #A0616A;
     border-color: #A0616A;
     width: 300px;
     height: 50px;
-    margin-left: 120px;
+    margin-left: 130px;
     font-size: 30px;
     font-weight: bold;
     border: 1.5px solid #A0616A;
 }
 
-.login-btn:hover{
-    border: 2px solid rgba(0, 136, 255, 0.964);
-}
-
-.google
-{
+.google {
     background-color: #FFFFFF;
     border-radius: 11.71px;
     height: 50px;
@@ -131,33 +109,116 @@ input::placeholder {
     border: 2px solid none;
 }
 
-.google:hover
-{
-    border: 2px solid rgba(0, 136, 255, 0.964);
-}
-
-.text 
-{
+.text {
     background-color: #FFFFFF;
     margin-bottom: 30px;
 }
 
-.text p 
-{
+.text p {
     background-color: #FFFFFF;
     color: #868686;
     font-size: 18px;
 }
 
-.google-logo 
-{
+.google-logo {
     height: 32.21px;
     margin-top: 10px;
     width: 32.63px;
     background-color: white;
 }
 
-.google-logo img
-{
+.google-logo img {
     background-color: white;
 }
+
+@media (max-width: 768px) {
+    .login {
+        flex-direction: column; 
+        align-items: center;
+        gap: 20px;
+    }
+
+    .logo {
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        position: relative;
+    }
+
+    .title {
+        color: #0E0000;
+        background-color: #FFFFFF;
+        padding: 20px 30px; 
+        font-weight: bold;
+        font-size: large; 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        box-sizing: border-box; 
+    }
+
+    .ruler {
+        width: 90%;
+        color: #8F8F8F;
+        font-weight: 1;
+    }
+
+    .heading {
+        font-size: 28px;
+        text-align: center; 
+        margin: 10px auto; 
+    }
+
+    .login-form {
+        width: 90%;
+        height: 360px;
+        padding: 20px;
+        margin: 20px auto;
+        border-radius: 20px;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    form {
+        background-color: #F1E8C7;
+    }
+
+    input {
+        width: 100%; 
+        padding: 10px;
+        font-size: 12px; 
+        margin-bottom: 8px;
+        border-radius: 5px; 
+    }
+
+    .login-btn {
+        width: 100%;
+        height: 45px;
+        font-size: 16px; 
+        margin: 20px 0;
+        border-radius: 18px;
+        border: 1.5px solid #A0616A;
+        background-color: #F1E8C7;
+        color: #A0616A;
+    }
+
+    .google {
+        width: 90%;
+        margin: 15px auto;
+        padding: 10px;
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+    }
+
+    .google-logo img {
+        width: 24px;
+        height: auto;
+    }
+
+    .text p {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
